@@ -5,28 +5,28 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("OpenAI actualiza sus herramientas para agentes")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(6);
+  await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(4);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
   await page.goto("/");
 
-  await page.getByLabel("Buscar noticias").fill("VS Code");
+  await page.getByLabel("Buscar noticias").fill("Stripe");
 
-  await expect(page.getByText("Nuevas integraciones de VS Code con IA")).toBeVisible();
-  await expect(page.getByText("OpenAI actualiza sus herramientas para agentes")).toBeHidden();
+  await expect(page.getByText("Stripe lanza infraestructura economica para agentes")).toBeVisible();
+  await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeHidden();
 });
 
 test("hides non-matching news inside a partially matching day group", async ({ page }) => {
   await page.goto("/");
 
-  await page.getByLabel("Buscar noticias").fill("OpenAI");
+  await page.getByLabel("Buscar noticias").fill("Cursor");
 
-  await expect(page.getByText("OpenAI actualiza sus herramientas para agentes")).toBeVisible();
-  await expect(page.getByText("OpenAI lanza soporte nativo para archivos grandes")).toBeVisible();
-  await expect(page.getByText("Anthropic publica mejoras en Claude Code")).toBeHidden();
-  await expect(page.getByText("Anthropic mejora la seguridad en Claude")).toBeHidden();
+  await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeVisible();
+  await expect(page.getByText("Stripe lanza infraestructura economica para agentes")).toBeHidden();
+  await expect(page.getByText("Anthropic lleva Claude a herramientas creativas")).toBeHidden();
+  await expect(page.getByText("GitHub Copilot pasa a facturacion por uso")).toBeHidden();
 });
 
 test("shows an empty state when search has no matches", async ({ page }) => {

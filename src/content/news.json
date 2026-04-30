@@ -1,50 +1,34 @@
 [
   {
-    "id": "2026-04-30-openai-agents-tools",
-    "title": "OpenAI actualiza sus herramientas para agentes",
-    "summary": "Nuevas capacidades en la API y el Responses API, mas control para desarrolladores y mejor observabilidad.",
-    "url": "https://x.com/openai",
+    "id": "2026-04-29-cursor-sdk-public-beta",
+    "title": "Cursor abre en beta publica su SDK para agentes",
+    "summary": "El nuevo paquete @cursor/sdk permite crear agentes desde TypeScript para scripts, CI/CD o productos, con runtime local o cloud y acceso al harness de Cursor.",
+    "url": "https://forum.cursor.com/t/cursor-sdk-cloud-agents-api-updates/159284",
     "source": "X",
-    "publishedAt": "2026-04-30T09:30:00Z"
+    "publishedAt": "2026-04-29T15:06:00Z"
   },
   {
-    "id": "2026-04-30-anthropic-claude-code",
-    "title": "Anthropic publica mejoras en Claude Code",
-    "summary": "Mejor manejo de contexto, ejecucion en paralelo y nuevas opciones de configuracion para proyectos.",
-    "url": "https://x.com/AnthropicAI",
+    "id": "2026-04-29-stripe-agentic-commerce",
+    "title": "Stripe lanza infraestructura economica para agentes",
+    "summary": "Stripe presenta 288 novedades, incluyendo wallets Link para agentes, compras dentro de Gemini y AI Mode, pagos por token en streaming y una expansion de Treasury.",
+    "url": "https://stripe.com/es/newsroom/news/sessions-2026",
     "source": "X",
-    "publishedAt": "2026-04-30T08:10:00Z"
+    "publishedAt": "2026-04-29T12:00:00Z"
   },
   {
-    "id": "2026-04-29-openai-large-files",
-    "title": "OpenAI lanza soporte nativo para archivos grandes",
-    "summary": "La API ahora admite archivos de hasta 2 GB para facilitar flujos de trabajo mas complejos.",
-    "url": "https://x.com/OpenAIDevs",
+    "id": "2026-04-28-claude-creative-connectors",
+    "title": "Anthropic lleva Claude a herramientas creativas",
+    "summary": "Claude suma conectores para Blender, Adobe Creative Cloud, Ableton, Autodesk Fusion, Splice y otras herramientas, con integraciones basadas en MCP y APIs nativas.",
+    "url": "https://www.anthropic.com/news/claude-for-creative-work",
     "source": "X",
-    "publishedAt": "2026-04-29T17:45:00Z"
+    "publishedAt": "2026-04-28T12:00:00Z"
   },
   {
-    "id": "2026-04-29-anthropic-claude-security",
-    "title": "Anthropic mejora la seguridad en Claude",
-    "summary": "Nuevas protecciones frente a inyecciones de instrucciones y mayor transparencia en las respuestas.",
-    "url": "https://x.com/AnthropicAI",
+    "id": "2026-04-27-github-copilot-usage-billing",
+    "title": "GitHub Copilot pasa a facturacion por uso",
+    "summary": "Desde el 1 de junio, Copilot reemplazara los premium requests por GitHub AI Credits calculados segun tokens de entrada, salida y cache.",
+    "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
     "source": "X",
-    "publishedAt": "2026-04-29T15:20:00Z"
-  },
-  {
-    "id": "2026-04-29-llm-eval-library",
-    "title": "Lanzan libreria open source para evaluar LLMs",
-    "summary": "Herramientas modulares para pruebas, datasets y benchmarks reproducibles.",
-    "url": "https://x.com/github",
-    "source": "X",
-    "publishedAt": "2026-04-29T12:10:00Z"
-  },
-  {
-    "id": "2026-04-28-vscode-ai-integrations",
-    "title": "Nuevas integraciones de VS Code con IA",
-    "summary": "Extensiones actualizadas que mejoran el autocompletado, la navegacion y la generacion de codigo.",
-    "url": "https://x.com/code",
-    "source": "X",
-    "publishedAt": "2026-04-28T10:05:00Z"
+    "publishedAt": "2026-04-27T12:00:00Z"
   }
 ]
