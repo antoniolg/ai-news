@@ -46,9 +46,42 @@ The first data file can be a simple JSON document:
 
 This structure is intentionally small. It can evolve once the first version of the interface and the heartbeat workflow are in place.
 
+## Tech Stack
+
+- Astro
+- TypeScript
+- Tailwind CSS
+- Zod
+- Vitest
+- Playwright
+- pnpm
+
+## Development
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Run the local dev server:
+
+```bash
+pnpm dev
+```
+
+Run the verification gate:
+
+```bash
+pnpm check
+pnpm test
+pnpm test:e2e
+pnpm build
+```
+
 ## Repository Status
 
-This repository currently contains the project brief and baseline web `.gitignore`. The implementation stack is not chosen yet.
+This repository currently contains a minimal Astro scaffold that renders a Hello world page. The product timeline has not been implemented yet.
 
 When implementation starts, the project should stay aligned with these principles:
 
