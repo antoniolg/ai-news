@@ -82,9 +82,34 @@ pnpm build
 
 The same gate runs in GitHub Actions on pushes to `main` and on pull requests.
 
+## Project Structure
+
+- `src/content/news.json`: manually curated news used by the static app.
+- `src/domain/news`: news types and Zod validation schemas.
+- `src/application/news`: pure timeline logic such as sorting, grouping, labeling, and filtering.
+- `src/infrastructure/news`: JSON loading and validation boundary.
+- `src/pages/index.astro`: Spanish UI for the timeline experience.
+
+## Adding News
+
+Add new items to `src/content/news.json` using this shape:
+
+```json
+{
+  "id": "2026-04-30-example",
+  "title": "Example update",
+  "summary": "Short context about why this update matters.",
+  "url": "https://example.com/original-source",
+  "source": "X",
+  "publishedAt": "2026-04-30T09:00:00Z"
+}
+```
+
+The build validates every item with Zod. Invalid URLs, missing fields, unsupported sources, or invalid ISO dates fail before deployment.
+
 ## Repository Status
 
-This repository currently contains a minimal Astro scaffold that renders a Hello world page. The product timeline has not been implemented yet.
+This repository currently contains the first static implementation of the Cambio de Estado timeline. The product reads from a local JSON file and does not include heartbeat, RSS, scraping, or backend ingestion yet.
 
 When implementation starts, the project should stay aligned with these principles:
 

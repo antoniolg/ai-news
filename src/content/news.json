@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-04-30-openai-agents-tools",
+    "title": "OpenAI actualiza sus herramientas para agentes",
+    "summary": "Nuevas capacidades en la API y el Responses API, mas control para desarrolladores y mejor observabilidad.",
+    "url": "https://x.com/openai",
+    "source": "X",
+    "publishedAt": "2026-04-30T09:30:00Z"
+  },
+  {
+    "id": "2026-04-30-anthropic-claude-code",
+    "title": "Anthropic publica mejoras en Claude Code",
+    "summary": "Mejor manejo de contexto, ejecucion en paralelo y nuevas opciones de configuracion para proyectos.",
+    "url": "https://x.com/AnthropicAI",
+    "source": "X",
+    "publishedAt": "2026-04-30T08:10:00Z"
+  },
+  {
+    "id": "2026-04-29-openai-large-files",
+    "title": "OpenAI lanza soporte nativo para archivos grandes",
+    "summary": "La API ahora admite archivos de hasta 2 GB para facilitar flujos de trabajo mas complejos.",
+    "url": "https://x.com/OpenAIDevs",
+    "source": "X",
+    "publishedAt": "2026-04-29T17:45:00Z"
+  },
+  {
+    "id": "2026-04-29-anthropic-claude-security",
+    "title": "Anthropic mejora la seguridad en Claude",
+    "summary": "Nuevas protecciones frente a inyecciones de instrucciones y mayor transparencia en las respuestas.",
+    "url": "https://x.com/AnthropicAI",
+    "source": "X",
+    "publishedAt": "2026-04-29T15:20:00Z"
+  },
+  {
+    "id": "2026-04-29-llm-eval-library",
+    "title": "Lanzan libreria open source para evaluar LLMs",
+    "summary": "Herramientas modulares para pruebas, datasets y benchmarks reproducibles.",
+    "url": "https://x.com/github",
+    "source": "X",
+    "publishedAt": "2026-04-29T12:10:00Z"
+  },
+  {
+    "id": "2026-04-28-vscode-ai-integrations",
+    "title": "Nuevas integraciones de VS Code con IA",
+    "summary": "Extensiones actualizadas que mejoran el autocompletado, la navegacion y la generacion de codigo.",
+    "url": "https://x.com/code",
+    "source": "X",
+    "publishedAt": "2026-04-28T10:05:00Z"
+  }
+]
