@@ -73,11 +73,14 @@ pnpm dev
 Run the verification gate:
 
 ```bash
+pnpm lint
 pnpm check
 pnpm test
 pnpm test:e2e
 pnpm build
 ```
+
+The same gate runs in GitHub Actions on pushes to `main` and on pull requests.
 
 ## Repository Status
 

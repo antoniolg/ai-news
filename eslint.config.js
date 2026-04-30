@@ -1,0 +1,24 @@
+import js from "@eslint/js";
+import astro from "eslint-plugin-astro";
+import tseslint from "typescript-eslint";
+
+export default [
+  {
+    ignores: [
+      ".astro/",
+      "dist/",
+      "node_modules/",
+      "playwright-report/",
+      "test-results/",
+    ],
+  },
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  ...astro.configs["flat/recommended"],
+  {
+    files: ["**/*.d.ts"],
+    rules: {
+      "@typescript-eslint/triple-slash-reference": "off",
+    },
+  },
+];
