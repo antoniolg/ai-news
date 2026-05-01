@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-05-01-gemini-file-generation",
+    "title": "Gemini genera archivos descargables desde el chat",
+    "summary": "Gemini ya puede producir documentos, hojas de calculo, presentaciones, PDFs, CSV, LaTeX, Markdown y otros formatos descargables o exportables a Drive.",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
+    "source": "X",
+    "publishedAt": "2026-05-01T07:00:00Z"
+  },
+  {
+    "id": "2026-05-01-codex-app-updates",
+    "title": "Codex App suma onboarding, browser mejorado y flujos laterales",
+    "summary": "La app incorpora onboarding por tipo de uso, selector de dispositivo en el navegador embebido, forks efimeros con /side, Codex Security, computer use mas rapido y mejores previews.",
+    "url": "https://x.com/antonioleivag/status/2050097061555495349",
+    "source": "X",
+    "publishedAt": "2026-05-01T06:16:43Z"
+  },
+  {
+    "id": "2026-04-29-compose-performance-skills",
+    "title": "Compose Performance Skills lleva Agent Skills a Android",
+    "summary": "La libreria open source reune skills para que agentes diagnostiquen y corrijan problemas de rendimiento en Jetpack Compose con fuentes primarias.",
+    "url": "https://github.com/skydoves/compose-performance-skills",
+    "source": "X",
+    "publishedAt": "2026-04-29T08:14:41Z"
+  },
+  {
     "id": "2026-04-29-cursor-sdk-public-beta",
     "title": "Cursor abre en beta publica su SDK para agentes",
     "summary": "El nuevo paquete @cursor/sdk permite crear agentes desde TypeScript para scripts, CI/CD o productos, con runtime local o cloud y acceso al harness de Cursor.",
