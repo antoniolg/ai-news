@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-05-02-claude-security-beta",
+    "title": "Claude Security entra en beta publica para Enterprise",
+    "summary": "Anthropic lanza Claude Security para escanear codigo, detectar vulnerabilidades y proponer correcciones con Opus 4.7 e integraciones de partners de seguridad.",
+    "url": "https://claude.com/blog/claude-security-public-beta",
+    "source": "X",
+    "publishedAt": "2026-05-02T07:00:00Z"
+  },
+  {
+    "id": "2026-04-30-cursor-security-review",
+    "title": "Cursor lanza Security Review para Teams y Enterprise",
+    "summary": "Cursor incorpora agentes always-on para revisar pull requests, detectar riesgos de seguridad y ejecutar escaneos programados del codebase con notificaciones.",
+    "url": "https://cursor.com/changelog/04-30-26",
+    "source": "X",
+    "publishedAt": "2026-04-30T12:00:00Z"
+  },
+  {
+    "id": "2026-04-22-qwen-3-6-max-preview",
+    "title": "Alibaba presenta Qwen3.6-Max-Preview para agentic coding",
+    "summary": "El nuevo modelo preview mejora a Qwen3.6-Plus en agentic coding, conocimiento, instruction following y benchmarks como SkillsBench, SciCode, NL2Repo y Terminal-Bench 2.0.",
+    "url": "https://www.alibabacloud.com/blog/603055",
+    "source": "X",
+    "publishedAt": "2026-04-22T12:00:00Z"
+  },
+  {
     "id": "2026-05-01-gemini-file-generation",
     "title": "Gemini genera archivos descargables desde el chat",
     "summary": "Gemini ya puede producir documentos, hojas de calculo, presentaciones, PDFs, CSV, LaTeX, Markdown y otros formatos descargables o exportables a Drive.",
