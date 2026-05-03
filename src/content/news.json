@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-05-03-codex-goals",
+    "title": "Codex CLI introduce objetivos persistentes con /goal",
+    "summary": "La version 0.128.0 de Codex CLI incorpora /goal, una primitiva para mantener objetivos vivos y reanudar trabajo de agente mas alla de un turno puntual.",
+    "url": "https://newreleases.io/project/github/openai/codex/release/rust-v0.128.0",
+    "source": "X",
+    "publishedAt": "2026-05-03T07:00:00Z"
+  },
+  {
+    "id": "2026-05-02-codex-pets",
+    "title": "OpenAI anade mascotas pixel-art a Codex",
+    "summary": "Codex incorpora /pet para despertar una mascota dentro de la experiencia de desarrollo, una capa ludica que muestra como el producto tambien explora identidad y presencia en la interfaz.",
+    "url": "https://x.com/OpenAIDevs/status/2050275713824211041",
+    "source": "X",
+    "publishedAt": "2026-05-01T18:06:37Z"
+  },
+  {
+    "id": "2026-05-02-openclaw-release-2026-5-2",
+    "title": "OpenClaw 2026.5.2 refuerza plugins y runtime de agentes",
+    "summary": "La nueva version mejora instalacion y actualizacion de plugins, proveedores OpenAI-compatible y Anthropic-compatible, WebChat, gateway, mensajeria, herramientas SDK y soporte de Grok 4.3.",
+    "url": "https://github.com/openclaw/openclaw/releases",
+    "source": "X",
+    "publishedAt": "2026-05-02T12:00:00Z"
+  },
+  {
     "id": "2026-05-02-claude-security-beta",
     "title": "Claude Security entra en beta publica para Enterprise",
     "summary": "Anthropic lanza Claude Security para escanear codigo, detectar vulnerabilidades y proponer correcciones con Opus 4.7 e integraciones de partners de seguridad.",

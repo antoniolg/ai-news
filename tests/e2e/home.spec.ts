@@ -5,17 +5,18 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Claude Security entra en beta publica para Enterprise")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(10);
+  await expect(page.getByText("Codex CLI introduce objetivos persistentes con /goal")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(13);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
   await page.goto("/");
 
-  await page.getByLabel("Buscar noticias").fill("Security");
+  await page.getByLabel("Buscar noticias").fill("Codex");
 
-  await expect(page.getByText("Claude Security entra en beta publica para Enterprise")).toBeVisible();
-  await expect(page.getByText("Cursor lanza Security Review para Teams y Enterprise")).toBeVisible();
+  await expect(page.getByText("Codex CLI introduce objetivos persistentes con /goal")).toBeVisible();
+  await expect(page.getByText("OpenAI anade mascotas pixel-art a Codex")).toBeVisible();
+  await expect(page.getByText("Codex App suma onboarding, browser mejorado y flujos laterales")).toBeVisible();
   await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeHidden();
 });
 
