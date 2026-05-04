@@ -24,7 +24,7 @@ const newsItems: NewsItem[] = [
   {
     id: "newer",
     title: "OpenAI publica mejoras para agentes",
-    summary: "Mas control para desarrolladores.",
+    summary: "Más control para desarrolladores.",
     url: "https://example.com/newer",
     source: "X",
     publishedAt: "2026-04-30T10:00:00Z",
@@ -32,7 +32,7 @@ const newsItems: NewsItem[] = [
   {
     id: "yesterday",
     title: "Anthropic mejora Claude Code",
-    summary: "Ejecucion en paralelo y contexto mas estable.",
+    summary: "Ejecución en paralelo y contexto más estable.",
     url: "https://example.com/yesterday",
     source: "X",
     publishedAt: "2026-04-29T10:00:00Z",
@@ -84,7 +84,8 @@ describe("timeline application service", () => {
     const normalizedItems = normalizeNewsItems(newsItems);
 
     expect(filterNewsItems(normalizedItems, "openai")).toHaveLength(1);
-    expect(filterNewsItems(normalizedItems, "paralelo")).toHaveLength(1);
+    expect(filterNewsItems(normalizedItems, "ejecucion")).toHaveLength(1);
+    expect(filterNewsItems(normalizedItems, "ejecución")).toHaveLength(1);
     expect(filterNewsItems(normalizedItems, "x")).toHaveLength(3);
   });
 

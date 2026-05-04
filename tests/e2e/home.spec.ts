@@ -15,9 +15,9 @@ test("filters timeline news from the search input", async ({ page }) => {
   await page.getByLabel("Buscar noticias").fill("Codex");
 
   await expect(page.getByText("Codex CLI introduce objetivos persistentes con /goal")).toBeVisible();
-  await expect(page.getByText("OpenAI anade mascotas pixel-art a Codex")).toBeVisible();
+  await expect(page.getByText("OpenAI añade mascotas pixel-art a Codex")).toBeVisible();
   await expect(page.getByText("Codex App suma onboarding, browser mejorado y flujos laterales")).toBeVisible();
-  await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeHidden();
+  await expect(page.getByText("Cursor abre en beta pública su SDK para agentes")).toBeHidden();
 });
 
 test("hides non-matching news inside a partially matching day group", async ({ page }) => {
@@ -27,10 +27,10 @@ test("hides non-matching news inside a partially matching day group", async ({ p
 
   await expect(page.getByText("Alibaba presenta Qwen3.6-Max-Preview para agentic coding")).toBeVisible();
   await expect(page.getByText("Codex App suma onboarding, browser mejorado y flujos laterales")).toBeHidden();
-  await expect(page.getByText("GitHub Copilot pasa a facturacion por uso")).toBeHidden();
-  await expect(page.getByText("Cursor abre en beta publica su SDK para agentes")).toBeHidden();
+  await expect(page.getByText("GitHub Copilot pasa a facturación por uso")).toBeHidden();
+  await expect(page.getByText("Cursor abre en beta pública su SDK para agentes")).toBeHidden();
   await expect(page.getByText("Compose Performance Skills lleva Agent Skills a Android")).toBeHidden();
-  await expect(page.getByText("Stripe lanza infraestructura economica para agentes")).toBeHidden();
+  await expect(page.getByText("Stripe lanza infraestructura económica para agentes")).toBeHidden();
   await expect(page.getByText("Anthropic lleva Claude a herramientas creativas")).toBeHidden();
 });
 

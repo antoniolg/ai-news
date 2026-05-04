@@ -2,15 +2,15 @@
   {
     "id": "2026-05-03-codex-goals",
     "title": "Codex CLI introduce objetivos persistentes con /goal",
-    "summary": "La version 0.128.0 de Codex CLI incorpora /goal, una primitiva para mantener objetivos vivos y reanudar trabajo de agente mas alla de un turno puntual.",
+    "summary": "La versión 0.128.0 de Codex CLI incorpora /goal, una primitiva para mantener objetivos vivos y reanudar trabajo de agente más allá de un turno puntual.",
     "url": "https://newreleases.io/project/github/openai/codex/release/rust-v0.128.0",
     "source": "X",
     "publishedAt": "2026-05-03T07:00:00Z"
   },
   {
     "id": "2026-05-02-codex-pets",
-    "title": "OpenAI anade mascotas pixel-art a Codex",
-    "summary": "Codex incorpora /pet para despertar una mascota dentro de la experiencia de desarrollo, una capa ludica que muestra como el producto tambien explora identidad y presencia en la interfaz.",
+    "title": "OpenAI añade mascotas pixel-art a Codex",
+    "summary": "Codex incorpora /pet para despertar una mascota dentro de la experiencia de desarrollo, una capa lúdica que muestra cómo el producto también explora identidad y presencia en la interfaz.",
     "url": "https://x.com/OpenAIDevs/status/2050275713824211041",
     "source": "X",
     "publishedAt": "2026-05-01T18:06:37Z"
@@ -18,15 +18,15 @@
   {
     "id": "2026-05-02-openclaw-release-2026-5-2",
     "title": "OpenClaw 2026.5.2 refuerza plugins y runtime de agentes",
-    "summary": "La nueva version mejora instalacion y actualizacion de plugins, proveedores OpenAI-compatible y Anthropic-compatible, WebChat, gateway, mensajeria, herramientas SDK y soporte de Grok 4.3.",
+    "summary": "La nueva versión mejora instalación y actualización de plugins, proveedores OpenAI-compatible y Anthropic-compatible, WebChat, gateway, mensajería, herramientas SDK y soporte de Grok 4.3.",
     "url": "https://github.com/openclaw/openclaw/releases",
     "source": "X",
     "publishedAt": "2026-05-02T12:00:00Z"
   },
   {
     "id": "2026-05-02-claude-security-beta",
-    "title": "Claude Security entra en beta publica para Enterprise",
-    "summary": "Anthropic lanza Claude Security para escanear codigo, detectar vulnerabilidades y proponer correcciones con Opus 4.7 e integraciones de partners de seguridad.",
+    "title": "Claude Security entra en beta pública para Enterprise",
+    "summary": "Anthropic lanza Claude Security para escanear código, detectar vulnerabilidades y proponer correcciones con Opus 4.7 e integraciones de partners de seguridad.",
     "url": "https://claude.com/blog/claude-security-public-beta",
     "source": "X",
     "publishedAt": "2026-05-02T07:00:00Z"
@@ -50,7 +50,7 @@
   {
     "id": "2026-05-01-gemini-file-generation",
     "title": "Gemini genera archivos descargables desde el chat",
-    "summary": "Gemini ya puede producir documentos, hojas de calculo, presentaciones, PDFs, CSV, LaTeX, Markdown y otros formatos descargables o exportables a Drive.",
+    "summary": "Gemini ya puede producir documentos, hojas de cálculo, presentaciones, PDFs, CSV, LaTeX, Markdown y otros formatos descargables o exportables a Drive.",
     "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
     "source": "X",
     "publishedAt": "2026-05-01T07:00:00Z"
@@ -58,7 +58,7 @@
   {
     "id": "2026-05-01-codex-app-updates",
     "title": "Codex App suma onboarding, browser mejorado y flujos laterales",
-    "summary": "La app incorpora onboarding por tipo de uso, selector de dispositivo en el navegador embebido, forks efimeros con /side, Codex Security, computer use mas rapido y mejores previews.",
+    "summary": "La app incorpora onboarding por tipo de uso, selector de dispositivo en el navegador embebido, forks efímeros con /side, Codex Security, computer use más rápido y mejores previews.",
     "url": "https://x.com/antonioleivag/status/2050097061555495349",
     "source": "X",
     "publishedAt": "2026-05-01T06:16:43Z"
@@ -66,14 +66,14 @@
   {
     "id": "2026-04-29-compose-performance-skills",
     "title": "Compose Performance Skills lleva Agent Skills a Android",
-    "summary": "La libreria open source reune skills para que agentes diagnostiquen y corrijan problemas de rendimiento en Jetpack Compose con fuentes primarias.",
+    "summary": "La librería open source reúne skills para que agentes diagnostiquen y corrijan problemas de rendimiento en Jetpack Compose con fuentes primarias.",
     "url": "https://github.com/skydoves/compose-performance-skills",
     "source": "X",
     "publishedAt": "2026-04-29T08:14:41Z"
   },
   {
     "id": "2026-04-29-cursor-sdk-public-beta",
-    "title": "Cursor abre en beta publica su SDK para agentes",
+    "title": "Cursor abre en beta pública su SDK para agentes",
     "summary": "El nuevo paquete @cursor/sdk permite crear agentes desde TypeScript para scripts, CI/CD o productos, con runtime local o cloud y acceso al harness de Cursor.",
     "url": "https://forum.cursor.com/t/cursor-sdk-cloud-agents-api-updates/159284",
     "source": "X",
@@ -81,8 +81,8 @@
   },
   {
     "id": "2026-04-29-stripe-agentic-commerce",
-    "title": "Stripe lanza infraestructura economica para agentes",
-    "summary": "Stripe presenta 288 novedades, incluyendo wallets Link para agentes, compras dentro de Gemini y AI Mode, pagos por token en streaming y una expansion de Treasury.",
+    "title": "Stripe lanza infraestructura económica para agentes",
+    "summary": "Stripe presenta 288 novedades, incluyendo wallets Link para agentes, compras dentro de Gemini y AI Mode, pagos por token en streaming y una expansión de Treasury.",
     "url": "https://stripe.com/es/newsroom/news/sessions-2026",
     "source": "X",
     "publishedAt": "2026-04-29T12:00:00Z"
@@ -97,8 +97,8 @@
   },
   {
     "id": "2026-04-27-github-copilot-usage-billing",
-    "title": "GitHub Copilot pasa a facturacion por uso",
-    "summary": "Desde el 1 de junio, Copilot reemplazara los premium requests por GitHub AI Credits calculados segun tokens de entrada, salida y cache.",
+    "title": "GitHub Copilot pasa a facturación por uso",
+    "summary": "Desde el 1 de junio, Copilot reemplazará los premium requests por GitHub AI Credits calculados según tokens de entrada, salida y caché.",
     "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
     "source": "X",
     "publishedAt": "2026-04-27T12:00:00Z"
