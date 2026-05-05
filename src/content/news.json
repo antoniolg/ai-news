@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-05-05-tinyfish-search-fetch-free",
+    "title": "TinyFish hace gratis Search y Fetch para agentes",
+    "summary": "TinyFish abre gratis sus APIs de Web Search y Fetch para agentes, con REST API, MCP server, SDKs, CLI, Skill e integraciones para stacks como OpenClaw, n8n, Dify, LangChain y CrewAI.",
+    "url": "https://www.tinyfish.ai/blog/search-and-fetch-are-now-free-for-every-agent-everywhere",
+    "source": "X",
+    "publishedAt": "2026-05-05T07:00:00Z"
+  },
+  {
+    "id": "2026-05-02-lazyweb-mcp-design-references",
+    "title": "Lazyweb lanza un MCP de referencias visuales para agentes",
+    "summary": "Lazyweb ofrece un MCP para Claude, Codex y Cursor con herramientas de investigación visual y una biblioteca grande de pantallas reales para mejorar el diseño de interfaces asistido por agentes.",
+    "url": "https://www.lazyweb.com/mcp-install",
+    "source": "X",
+    "publishedAt": "2026-05-02T14:14:30Z"
+  },
+  {
     "id": "2026-05-03-codex-goals",
     "title": "Codex CLI introduce objetivos persistentes con /goal",
     "summary": "La versión 0.128.0 de Codex CLI incorpora /goal, una primitiva para mantener objetivos vivos y reanudar trabajo de agente más allá de un turno puntual.",

@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Codex CLI introduce objetivos persistentes con /goal")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(13);
+  await expect(page.getByText("TinyFish hace gratis Search y Fetch para agentes")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(15);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
