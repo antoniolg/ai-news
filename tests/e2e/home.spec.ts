@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("TinyFish hace gratis Search y Fetch para agentes")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(15);
+  await expect(page.getByText("Google acelera Gemma 4 con drafters MTP")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(16);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {

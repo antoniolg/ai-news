@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-06-gemma-4-mtp-drafters",
+    "title": "Google acelera Gemma 4 con drafters MTP",
+    "summary": "Google publica Multi-Token Prediction drafters para Gemma 4, una técnica de speculative decoding que promete hasta 3x más velocidad de inferencia sin pérdida de calidad.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+    "source": "X",
+    "publishedAt": "2026-05-05T16:09:46Z"
+  },
+  {
     "id": "2026-05-05-tinyfish-search-fetch-free",
     "title": "TinyFish hace gratis Search y Fetch para agentes",
     "summary": "TinyFish abre gratis sus APIs de Web Search y Fetch para agentes, con REST API, MCP server, SDKs, CLI, Skill e integraciones para stacks como OpenClaw, n8n, Dify, LangChain y CrewAI.",
