@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Google acelera Gemma 4 con drafters MTP")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(16);
+  await expect(page.getByText("OpenAI convierte GPT-5.5 Instant en el nuevo modelo por defecto")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(19);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
