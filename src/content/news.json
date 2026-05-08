@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-05-08-codex-chrome-plugin",
+    "title": "Codex empieza a trabajar directamente en Chrome",
+    "summary": "OpenAI anuncia que Codex ya puede operar en Chrome en macOS y Windows mediante plugin, trabajar con apps y sitios web en paralelo y ejecutar tareas en pestañas en segundo plano sin tomar el control del navegador.",
+    "url": "https://x.com/OpenAI/status/2052480800004956323",
+    "source": "X",
+    "publishedAt": "2026-05-07T20:08:50Z"
+  },
+  {
+    "id": "2026-05-08-openai-realtime-voice-models",
+    "title": "OpenAI lanza nuevos modelos realtime de voz en la API",
+    "summary": "OpenAI presenta GPT-Realtime-2, GPT-Realtime-Translate y GPT-Realtime-Whisper para agentes de voz con razonamiento, llamadas paralelas a herramientas, traducción en tiempo real y sesiones de contexto largo.",
+    "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+    "source": "X",
+    "publishedAt": "2026-05-07T19:00:00Z"
+  },
+  {
+    "id": "2026-05-08-mozilla-claude-mythos-firefox-security",
+    "title": "Mozilla usa Claude Mythos para endurecer Firefox",
+    "summary": "Mozilla detalla cómo su pipeline con Claude Mythos Preview y otros modelos ayudó a corregir cientos de bugs de seguridad en Firefox y apunta a integrar este tipo de análisis en CI.",
+    "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+    "source": "X",
+    "publishedAt": "2026-05-08T05:57:47Z"
+  },
+  {
     "id": "2026-05-07-gpt-5-5-instant-default",
     "title": "OpenAI convierte GPT-5.5 Instant en el nuevo modelo por defecto",
     "summary": "GPT-5.5 Instant sustituye a GPT-5.3 Instant como modelo por defecto de ChatGPT y queda disponible en la API como chat-latest para probar las mejoras más recientes en casos conversacionales.",
