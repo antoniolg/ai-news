@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-10-codex-remote-control",
+    "title": "Codex CLI añade remote-control para controlar agentes en remoto",
+    "summary": "Codex CLI 0.130.0 incorpora codex remote-control como entrada simple para arrancar un app-server headless y controlable en remoto, junto a mejoras de paginación de threads, plugins compartibles y credenciales de Bedrock.",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
+    "source": "X",
+    "publishedAt": "2026-05-08T23:09:55Z"
+  },
+  {
     "id": "2026-05-08-codex-chrome-plugin",
     "title": "Codex empieza a trabajar directamente en Chrome",
     "summary": "OpenAI anuncia que Codex ya puede operar en Chrome en macOS y Windows mediante plugin, trabajar con apps y sitios web en paralelo y ejecutar tareas en pestañas en segundo plano sin tomar el control del navegador.",
