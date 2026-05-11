@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-11-bun-rust-port-claude",
+    "title": "Bun roza el 100% de tests en una reescritura Zig a Rust asistida por IA",
+    "summary": "Jarred Sumner muestra que la rama experimental para portar Bun de Zig a Rust ya pasa el 99,8% de la suite en Linux x64 glibc, con una guía de migración pensada para traducir código de forma controlada con tests y asistencia de Claude.",
+    "url": "https://xunroll.com/thread/2053047748191232310",
+    "source": "X",
+    "publishedAt": "2026-05-10T20:10:00Z"
+  },
+  {
     "id": "2026-05-10-codex-remote-control",
     "title": "Codex CLI añade remote-control para controlar agentes en remoto",
     "summary": "Codex CLI 0.130.0 incorpora codex remote-control como entrada simple para arrancar un app-server headless y controlable en remoto, junto a mejoras de paginación de threads, plugins compartibles y credenciales de Bedrock.",

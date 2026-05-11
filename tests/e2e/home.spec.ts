@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Codex CLI añade remote-control para controlar agentes en remoto")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(23);
+  await expect(page.getByText("Bun roza el 100% de tests en una reescritura Zig a Rust asistida por IA")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(24);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
