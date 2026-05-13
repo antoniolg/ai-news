@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Bun roza el 100% de tests en una reescritura Zig a Rust asistida por IA")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(24);
+  await expect(page.getByText("Claude Code adopta /goal para mantener agentes trabajando hasta completar una tarea")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(25);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
