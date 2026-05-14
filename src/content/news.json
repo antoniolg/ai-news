@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-14-vscode-agents-window",
+    "title": "VS Code prueba Agents Window para flujos de desarrollo agent-first",
+    "summary": "Microsoft documenta Agents Window, una ventana en preview para trabajar con Copilot como interfaz principal: sesiones de agentes, revisión de cambios, validación local, sub-sesiones y trabajo remoto desde una vista dedicada.",
+    "url": "https://code.visualstudio.com/docs/copilot/agents/agents-window",
+    "source": "X",
+    "publishedAt": "2026-05-14T06:19:32Z"
+  },
+  {
     "id": "2026-05-13-claude-code-goals",
     "title": "Claude Code adopta /goal para mantener agentes trabajando hasta completar una tarea",
     "summary": "Claude Code documenta /goal, un comando para definir una condición de finalización y dejar que el agente siga trabajando durante varios turnos hasta cumplirla, también en modo no interactivo y con Remote Control.",

@@ -5,8 +5,8 @@ test("renders the scaffold homepage", async ({ page }) => {
 
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
-  await expect(page.getByText("Claude Code adopta /goal para mantener agentes trabajando hasta completar una tarea")).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(25);
+  await expect(page.getByText("VS Code prueba Agents Window para flujos de desarrollo agent-first")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(26);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
