@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-05-15-grok-build-cli",
+    "title": "xAI lanza Grok Build, su CLI agentic para desarrollo software",
+    "summary": "xAI publica en beta temprana Grok Build, un CLI para programar, crear apps y automatizar workflows con modo plan, revisión de diffs, AGENTS.md, plugins, hooks, skills, MCP, subagentes en paralelo, modo headless y compatibilidad ACP.",
+    "url": "https://x.ai/news/grok-build-cli",
+    "source": "X",
+    "publishedAt": "2026-05-15T06:18:13Z"
+  },
+  {
+    "id": "2026-05-14-codex-chatgpt-mobile",
+    "title": "Codex llega a la app móvil de ChatGPT",
+    "summary": "OpenAI pone Codex en preview dentro de la app móvil de ChatGPT para iniciar trabajo, revisar resultados, guiar la ejecución y aprobar próximos pasos mientras el agente sigue corriendo en el portátil, Mac mini o devbox.",
+    "url": "https://x.com/OpenAI/status/2055016850849993072",
+    "source": "X",
+    "publishedAt": "2026-05-14T20:06:12Z"
+  },
+  {
+    "id": "2026-05-14-github-copilot-app-preview",
+    "title": "GitHub lanza Copilot App en technical preview",
+    "summary": "GitHub presenta Copilot App, una app nativa para iniciar sesiones agentic desde issues, pull requests, prompts o sesiones previas, revisar planes y diffs, validar cambios y llevar el trabajo hasta PR o merge con Agent Merge.",
+    "url": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/",
+    "source": "X",
+    "publishedAt": "2026-05-14T18:00:00Z"
+  },
+  {
     "id": "2026-05-14-vscode-agents-window",
     "title": "VS Code prueba Agents Window para flujos de desarrollo agent-first",
     "summary": "Microsoft documenta Agents Window, una ventana en preview para trabajar con Copilot como interfaz principal: sesiones de agentes, revisión de cambios, validación local, sub-sesiones y trabajo remoto desde una vista dedicada.",
