@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-15-openai-product-reorg",
+    "title": "OpenAI unifica ChatGPT, Codex y la API bajo una misma estrategia de producto",
+    "summary": "OpenAI reorganiza sus equipos para plegar ChatGPT, Codex y la API de desarrolladores en un único núcleo de producto liderado por Greg Brockman, una señal clara de que Codex deja de ser una herramienta aislada y pasa a formar parte del producto principal.",
+    "url": "https://www.wired.com/story/openai-reorg-greg-brockman-product/",
+    "source": "X",
+    "publishedAt": "2026-05-15T20:09:00Z"
+  },
+  {
     "id": "2026-05-15-grok-build-cli",
     "title": "xAI lanza Grok Build, su CLI agentic para desarrollo software",
     "summary": "xAI publica en beta temprana Grok Build, un CLI para programar, crear apps y automatizar workflows con modo plan, revisión de diffs, AGENTS.md, plugins, hooks, skills, MCP, subagentes en paralelo, modo headless y compatibilidad ACP.",
