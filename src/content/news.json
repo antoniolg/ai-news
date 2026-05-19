@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-05-18-cursor-composer-2-5",
+    "title": "Cursor lanza Composer 2.5 para tareas largas de programación",
+    "summary": "Cursor publica Composer 2.5, una mejora sustancial de su modelo propio frente a Composer 2, con mejor trabajo sostenido en tareas largas, seguimiento de instrucciones complejas, precios Standard y Fast y doble uso durante la primera semana.",
+    "url": "https://cursor.com/changelog/composer-2-5",
+    "source": "X",
+    "publishedAt": "2026-05-18T16:43:35Z"
+  },
+  {
+    "id": "2026-05-18-anthropic-stainless-acquisition",
+    "title": "Anthropic compra Stainless para reforzar SDKs y MCP",
+    "summary": "Anthropic adquiere Stainless, la compañía que ha generado sus SDKs oficiales desde los primeros días de la API, para integrar más profundamente SDKs, CLIs y servidores MCP en la plataforma Claude.",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "source": "X",
+    "publishedAt": "2026-05-18T12:00:00Z"
+  },
+  {
+    "id": "2026-05-18-prime-intellect-general-agent",
+    "title": "Prime Intellect abre general-agent para entrenar agentes con entornos sintéticos",
+    "summary": "Prime Intellect publica general-agent, un entorno sintético autoevolutivo para entrenar y evaluar agentes con 1.040 dominios, 4.504 tareas, más de 8.000 herramientas y calibración por niveles de dificultad.",
+    "url": "https://www.primeintellect.ai/blog/general-agent",
+    "source": "X",
+    "publishedAt": "2026-05-18T12:00:00Z"
+  },
+  {
+    "id": "2026-05-14-grep-agentic-search",
+    "title": "Un paper cuestiona si los agentes de código necesitan vector search por defecto",
+    "summary": "El paper Is Grep All You Need? compara grep y recuperación vectorial en harnesses como Claude Code, Codex y Gemini CLI, y muestra que las herramientas simples bien integradas pueden superar a vector search en varias tareas agentic de búsqueda sobre código y conversación.",
+    "url": "https://arxiv.org/abs/2605.15184",
+    "source": "X",
+    "publishedAt": "2026-05-14T17:58:41Z"
+  },
+  {
     "id": "2026-05-15-openai-product-reorg",
     "title": "OpenAI unifica ChatGPT, Codex y la API bajo una misma estrategia de producto",
     "summary": "OpenAI reorganiza sus equipos para plegar ChatGPT, Codex y la API de desarrolladores en un único núcleo de producto liderado por Greg Brockman, una señal clara de que Codex deja de ser una herramienta aislada y pasa a formar parte del producto principal.",
