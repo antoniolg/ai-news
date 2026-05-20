@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("Cursor lanza Composer 2.5 para tareas largas de programación"),
+    page.getByText("GitHub investiga una brecha causada por una extensión maliciosa de VS Code"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(34);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(38);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {

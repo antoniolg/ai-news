@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-05-20-github-vscode-extension-breach",
+    "title": "GitHub investiga una brecha causada por una extensión maliciosa de VS Code",
+    "summary": "GitHub confirma que un dispositivo de empleado fue comprometido mediante una extensión maliciosa de VS Code, con exfiltración de repositorios internos y una cifra de unos 3.800 repos consistente con la investigación en curso.",
+    "url": "https://x.com/github/status/2056949168208552080",
+    "source": "X",
+    "publishedAt": "2026-05-20T04:04:32Z"
+  },
+  {
+    "id": "2026-05-19-gemini-3-5-flash-copilot",
+    "title": "Gemini 3.5 Flash llega a GitHub Copilot para flujos de coding agentic",
+    "summary": "Google DeepMind presenta Gemini 3.5 Flash, optimizado para agentes y coding, y GitHub lo activa de forma general en Copilot como modelo rápido, eficiente en caché y de bajo coste para ciclos iterativos con herramientas.",
+    "url": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+    "source": "X",
+    "publishedAt": "2026-05-19T18:00:00Z"
+  },
+  {
+    "id": "2026-05-19-google-antigravity-2-cli",
+    "title": "Google convierte Antigravity en una suite agentic con app 2.0 y CLI",
+    "summary": "Google anuncia Antigravity 2.0 y Antigravity CLI para desarrollo agent-first, con subagentes, sandboxing de terminal, enmascarado de credenciales, políticas Git más estrictas y export desde AI Studio preservando contexto de proyecto.",
+    "url": "https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/",
+    "source": "X",
+    "publishedAt": "2026-05-19T17:00:00Z"
+  },
+  {
+    "id": "2026-05-19-android-performance-analyzer",
+    "title": "Google presenta Android Performance Analyzer con análisis asistido por IA",
+    "summary": "Android Performance Analyzer unifica señales de CPU, GPU, memoria y energía y añade análisis AI-powered para diagnosticar problemas de rendimiento en apps Android con una experiencia de profiling más guiada.",
+    "url": "https://developer.android.com/android-performance-analyzer",
+    "source": "X",
+    "publishedAt": "2026-05-19T16:00:00Z"
+  },
+  {
     "id": "2026-05-18-cursor-composer-2-5",
     "title": "Cursor lanza Composer 2.5 para tareas largas de programación",
     "summary": "Cursor publica Composer 2.5, una mejora sustancial de su modelo propio frente a Composer 2, con mejor trabajo sostenido en tareas largas, seguimiento de instrucciones complejas, precios Standard y Fast y doble uso durante la primera semana.",
