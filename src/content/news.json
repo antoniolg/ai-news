@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-05-24-vllm-ai-pr-slop",
+    "title": "vLLM endurece el filtro contra PRs de baja señal generadas con IA",
+    "summary": "vLLM detecta una PR asociada a un flujo de PR training que intentaba resolver un problema inexistente, banea al contribuidor y avisa de que los agentes de código están aumentando el coste de revisión en proyectos open source.",
+    "url": "https://x.com/vllm_project/status/2058358072020779391",
+    "source": "X",
+    "publishedAt": "2026-05-24T01:23:01Z"
+  },
+  {
+    "id": "2026-05-23-codex-usage-limits-reset",
+    "title": "OpenAI corrige un bug de Codex que consumía límites demasiado rápido",
+    "summary": "OpenAI identifica una optimización que reducía el cache hit rate al compactar sesiones largas de Codex, revierte el cambio, corrige el problema y resetea los límites de uso para todas las cuentas.",
+    "url": "https://x.com/thsottiaux/status/2058280452851638313",
+    "source": "X",
+    "publishedAt": "2026-05-23T20:14:35Z"
+  },
+  {
+    "id": "2026-05-23-codex-app-server",
+    "title": "Codex empieza a funcionar como plataforma embebible para otros clientes",
+    "summary": "OpenAI documenta Codex App Server para integrar experiencias Codex en productos externos, mientras Tibo señala que parte del tráfico de producción ya llega desde harnesses como Pi y OpenCode usando cuentas de ChatGPT.",
+    "url": "https://developers.openai.com/codex/app-server",
+    "source": "X",
+    "publishedAt": "2026-05-23T06:22:59Z"
+  },
+  {
+    "id": "2026-05-22-deepseek-v4-pro-pricing",
+    "title": "DeepSeek deja permanente el descuento del 75% en V4-Pro",
+    "summary": "DeepSeek mantiene como precio oficial una cuarta parte del coste original de V4-Pro, con contexto de un millón de tokens, tool calls, JSON y endpoints compatibles con OpenAI y Anthropic para reducir el coste de agentes y flujos de inferencia intensiva.",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "source": "X",
+    "publishedAt": "2026-05-22T20:02:37Z"
+  },
+  {
+    "id": "2026-05-21-codex-appshots-locked-computer-use",
+    "title": "Codex añade Appshots y computer use remoto con el Mac bloqueado",
+    "summary": "OpenAI actualiza Codex con Appshots en macOS para adjuntar ventanas de apps a un thread, Goal mode disponible de forma general, anotaciones más precisas en el navegador y computer use remoto aunque el Mac esté bloqueado.",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source": "X",
+    "publishedAt": "2026-05-21T18:59:12Z"
+  },
+  {
+    "id": "2026-05-20-diffshub-large-pr-review",
+    "title": "DiffsHub virtualiza diffs grandes de GitHub para revisar PRs enormes",
+    "summary": "Pierre Computer Company lanza DiffsHub, una demo que abre diffs públicos de GitHub en una interfaz virtualizada capaz de manejar cambios muy grandes y mostrar su nuevo componente CodeView.",
+    "url": "https://diffshub.com/",
+    "source": "X",
+    "publishedAt": "2026-05-20T19:01:39Z"
+  },
+  {
+    "id": "2026-05-20-npm-token-invalidation-2fa",
+    "title": "npm invalida tokens con write access que podían saltarse 2FA",
+    "summary": "npm invalida tokens granulares con permisos de escritura que podían saltarse 2FA, una medida preventiva para reducir el riesgo de ataques de supply chain y compromisos de publicación en el ecosistema JavaScript.",
+    "url": "https://x.com/npmjs/status/2056960835030016286",
+    "source": "X",
+    "publishedAt": "2026-05-20T04:50:54Z"
+  },
+  {
     "id": "2026-05-20-github-vscode-extension-breach",
     "title": "GitHub investiga una brecha causada por una extensión maliciosa de VS Code",
     "summary": "GitHub confirma que un dispositivo de empleado fue comprometido mediante una extensión maliciosa de VS Code, con exfiltración de repositorios internos y una cifra de unos 3.800 repos consistente con la investigación en curso.",
