@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("vLLM endurece el filtro contra PRs de baja señal generadas con IA"),
+    page.getByText("ZEDA permite saltar la mitad de expertos en modelos MoE ya entrenados"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(45);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(46);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {

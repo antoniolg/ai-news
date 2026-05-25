@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-05-25-zeda-moe-expert-skipping",
+    "title": "ZEDA permite saltar la mitad de expertos en modelos MoE ya entrenados",
+    "summary": "El paper Post-Trained MoE Can Skip Half Experts via Self-Distillation presenta ZEDA, una técnica para convertir modelos MoE ya entrenados en versiones dinámicas que eliminan más del 50% de FLOPs de expertos en Qwen3-30B-A3B y GLM-4.7-Flash con pérdida marginal y alrededor de 1,20x de mejora end-to-end.",
+    "url": "https://arxiv.org/abs/2605.18643",
+    "source": "X",
+    "publishedAt": "2026-05-25T06:21:53Z"
+  },
+  {
     "id": "2026-05-24-vllm-ai-pr-slop",
     "title": "vLLM endurece el filtro contra PRs de baja señal generadas con IA",
     "summary": "vLLM detecta una PR asociada a un flujo de PR training que intentaba resolver un problema inexistente, banea al contribuidor y avisa de que los agentes de código están aumentando el coste de revisión en proyectos open source.",
