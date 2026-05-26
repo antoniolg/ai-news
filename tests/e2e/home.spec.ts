@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("ZEDA permite saltar la mitad de expertos en modelos MoE ya entrenados"),
+    page.getByText("Preprint representa la web como archivos, diffs y logs para agentes"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(46);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(48);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {

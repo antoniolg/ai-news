@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-05-26-preprint-browser-agent-substrate",
+    "title": "Preprint representa la web como archivos, diffs y logs para agentes",
+    "summary": "Prasanna publica Preprint, un experimento que proyecta páginas web vivas a un workspace de archivos, acciones append-only, diffs, logs y pruebas visuales para que los browser agents trabajen en un sustrato más parecido al de los agentes de código.",
+    "url": "https://x.com/_prasanna_ap/status/2059113378078150753",
+    "source": "X",
+    "publishedAt": "2026-05-26T03:24:20Z"
+  },
+  {
+    "id": "2026-05-25-skill-cleaner-context-audit",
+    "title": "skill-cleaner audita el coste de contexto de las skills de agentes",
+    "summary": "Peter Steinberger publica skill-cleaner, una skill que revisa descripciones demasiado largas, duplicados, skills poco usadas y presión sobre el prompt budget para mantener limpio y barato el contexto en entornos como Codex u OpenClaw.",
+    "url": "https://github.com/steipete/agent-scripts/blob/main/skills/skill-cleaner/SKILL.md",
+    "source": "X",
+    "publishedAt": "2026-05-25T14:27:34Z"
+  },
+  {
     "id": "2026-05-25-zeda-moe-expert-skipping",
     "title": "ZEDA permite saltar la mitad de expertos en modelos MoE ya entrenados",
     "summary": "El paper Post-Trained MoE Can Skip Half Experts via Self-Distillation presenta ZEDA, una técnica para convertir modelos MoE ya entrenados en versiones dinámicas que eliminan más del 50% de FLOPs de expertos en Qwen3-30B-A3B y GLM-4.7-Flash con pérdida marginal y alrededor de 1,20x de mejora end-to-end.",
