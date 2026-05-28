@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-05-28-openai-secure-mcp-tunnel",
+    "title": "OpenAI publica Secure MCP Tunnel para conectar MCP privados",
+    "summary": "OpenAI lanza Secure MCP Tunnel, un cliente para conectar servidores MCP privados con ChatGPT, Codex y la Responses API sin exponerlos a Internet ni abrir puertos entrantes.",
+    "url": "https://developers.openai.com/api/docs/guides/secure-mcp-tunnels",
+    "source": "X",
+    "publishedAt": "2026-05-27T21:16:43Z"
+  },
+  {
+    "id": "2026-05-27-itbench-aa-sre-agents",
+    "title": "ITBench-AA mide agentes en incidentes Kubernetes y ninguno supera el 50%",
+    "summary": "Artificial Analysis publica ITBench-AA, una implementación del benchmark de IBM para tareas SRE en incidentes Kubernetes donde Claude Opus 4.7 lidera con 46,7%, GPT-5.5 queda en 45,8% y Qwen3.7 Max en 42,5%.",
+    "url": "https://artificialanalysis.ai/evaluations/itbench-aa",
+    "source": "X",
+    "publishedAt": "2026-05-27T14:45:25Z"
+  },
+  {
+    "id": "2026-05-27-autoreview-agent-skill",
+    "title": "autoreview convierte la revisión previa a PR en una skill agentic",
+    "summary": "Peter Steinberger destaca autoreview, una skill de OpenClaw que revisa cambios antes de aterrizar una PR, valida hallazgos y fuerza un bucle de corrección orientado a detectar edge cases antes de entregar código.",
+    "url": "https://github.com/openclaw/agent-skills/blob/main/skills/autoreview/SKILL.md",
+    "source": "X",
+    "publishedAt": "2026-05-27T01:57:29Z"
+  },
+  {
+    "id": "2026-05-26-deepswe-agentic-coding-benchmark",
+    "title": "DeepSWE mide coding agents con tareas largas y menos contaminadas",
+    "summary": "Datacurve lanza DeepSWE, un benchmark de 113 tareas originales en 91 repositorios que busca medir programación agentic más realista; GPT-5.5 aparece primero con 70%, por delante de GPT-5.4 y Claude Opus 4.7.",
+    "url": "https://deepswe.datacurve.ai/blog",
+    "source": "X",
+    "publishedAt": "2026-05-26T16:18:00Z"
+  },
+  {
     "id": "2026-05-26-preprint-browser-agent-substrate",
     "title": "Preprint representa la web como archivos, diffs y logs para agentes",
     "summary": "Prasanna publica Preprint, un experimento que proyecta páginas web vivas a un workspace de archivos, acciones append-only, diffs, logs y pruebas visuales para que los browser agents trabajen en un sustrato más parecido al de los agentes de código.",

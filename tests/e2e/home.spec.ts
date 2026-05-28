@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("Preprint representa la web como archivos, diffs y logs para agentes"),
+    page.getByText("OpenAI publica Secure MCP Tunnel para conectar MCP privados"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(48);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(52);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
