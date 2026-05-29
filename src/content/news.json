@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-05-29-claude-opus-4-8-dynamic-workflows",
+    "title": "Claude Opus 4.8 lleva Dynamic Workflows a Claude Code",
+    "summary": "Anthropic lanza Claude Opus 4.8 junto a Dynamic Workflows en Claude Code, una preview que permite planificar tareas grandes, repartirlas entre decenas o cientos de subagentes paralelos y verificar resultados antes de devolver una respuesta coordinada.",
+    "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+    "source": "X",
+    "publishedAt": "2026-05-28T17:00:00Z"
+  },
+  {
+    "id": "2026-05-29-codex-chatgpt-mcp-instructions",
+    "title": "ChatGPT y Codex empiezan a usar instrucciones de servidores MCP",
+    "summary": "ChatGPT y Codex ya leen el campo estándar instructions de servidores MCP y pasan los primeros 512 caracteres al modelo para darle guía global sobre flujos, límites y convenciones antes de decidir cómo usar las herramientas.",
+    "url": "https://x.com/mxstbr/status/2059357955481592026",
+    "source": "X",
+    "publishedAt": "2026-05-26T19:36:12Z"
+  },
+  {
+    "id": "2026-05-29-agent-optimization-system-judgment",
+    "title": "Un caso de optimización muestra por qué los agentes necesitan criterio de sistemas",
+    "summary": "Mitchell Hashimoto muestra un agente que baja un renderer de 88 ms a 1,5 ms y de 150.000 allocations a unas 500, pero su versión manual logra 0,020 ms y cero allocations, un recordatorio de que mejorar métricas no sustituye entender el sistema.",
+    "url": "https://x.com/mitchellh/status/2060088112257372610",
+    "source": "X",
+    "publishedAt": "2026-05-28T19:57:35Z"
+  },
+  {
+    "id": "2026-05-29-gpt-5-5-instant-update",
+    "title": "OpenAI actualiza GPT-5.5 Instant y mueve escritura y código fuera de canvas",
+    "summary": "OpenAI actualiza GPT-5.5 Instant en ChatGPT y la API para mejorar estilo y calidad, con respuestas más naturales y menos largas, y retira canvas de GPT-5.5 Instant y Thinking para usar bloques de escritura y código directamente en el chat.",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source": "X",
+    "publishedAt": "2026-05-28T12:00:00Z"
+  },
+  {
     "id": "2026-05-28-openai-secure-mcp-tunnel",
     "title": "OpenAI publica Secure MCP Tunnel para conectar MCP privados",
     "summary": "OpenAI lanza Secure MCP Tunnel, un cliente para conectar servidores MCP privados con ChatGPT, Codex y la Responses API sin exponerlos a Internet ni abrir puertos entrantes.",

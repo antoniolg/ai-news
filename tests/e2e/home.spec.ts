@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("OpenAI publica Secure MCP Tunnel para conectar MCP privados"),
+    page.getByText("Claude Opus 4.8 lleva Dynamic Workflows a Claude Code"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(52);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(56);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
