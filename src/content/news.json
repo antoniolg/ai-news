@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-05-29-codex-stable-identicons-search",
+    "title": "Codex mejora la trazabilidad con identicons estables y búsqueda de chats",
+    "summary": "OpenAI añade identidades visuales estables para agentes de Codex en segundo plano y búsqueda en conversaciones anteriores, dos mejoras pequeñas pero clave para trabajar con muchos threads, menciones y transcripciones sin perder el hilo.",
+    "url": "https://x.com/OpenAIDevs/status/2060478367921831936",
+    "source": "X",
+    "publishedAt": "2026-05-29T21:48:19Z"
+  },
+  {
+    "id": "2026-05-29-codex-thread-worktree-management",
+    "title": "Codex empieza a gestionar threads y worktrees por sí mismo",
+    "summary": "Codex ya puede crear, buscar, organizar y fijar threads, además de levantar worktrees para tareas paralelas, una señal de que los coding agents empiezan a actuar como orquestadores de su propio espacio de trabajo.",
+    "url": "https://x.com/guinnesschen/status/2060464235868836235",
+    "source": "X",
+    "publishedAt": "2026-05-29T20:52:10Z"
+  },
+  {
     "id": "2026-05-29-claude-opus-4-8-dynamic-workflows",
     "title": "Claude Opus 4.8 lleva Dynamic Workflows a Claude Code",
     "summary": "Anthropic lanza Claude Opus 4.8 junto a Dynamic Workflows en Claude Code, una preview que permite planificar tareas grandes, repartirlas entre decenas o cientos de subagentes paralelos y verificar resultados antes de devolver una respuesta coordinada.",

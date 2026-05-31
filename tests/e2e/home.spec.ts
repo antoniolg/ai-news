@@ -6,9 +6,9 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(page.getByLabel("Cambio de Estado")).toBeVisible();
   await expect(page.getByText(/Actualizado/)).toBeVisible();
   await expect(
-    page.getByText("Claude Opus 4.8 lleva Dynamic Workflows a Claude Code"),
+    page.getByText("Codex mejora la trazabilidad con identicons estables y búsqueda de chats"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(56);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(58);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
