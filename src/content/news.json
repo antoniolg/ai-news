@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-06-01-minimax-m3-coding-model",
+    "title": "MiniMax M3 combina coding frontier, 1M de contexto y multimodalidad",
+    "summary": "MiniMax presenta M3, un modelo orientado a coding y agentes con ventana de contexto de hasta un millon de tokens, entrada multimodal y evaluaciones especificas de desarrollo como SWE-Bench Pro, Terminal Bench y MCP Atlas.",
+    "url": "https://www.minimax.io/blog/minimax-m3",
+    "source": "X",
+    "publishedAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "2026-06-01-nvidia-cosmos-3-physical-ai",
+    "title": "NVIDIA Cosmos 3 lleva los modelos abiertos al terreno de la Physical AI",
+    "summary": "NVIDIA lanza Cosmos 3, un modelo abierto omnimodal para physical AI capaz de trabajar con texto, imagen, video, sonido ambiente y acciones, con foco en razonamiento fisico, simulacion y agentes que actuan en el mundo.",
+    "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+    "source": "X",
+    "publishedAt": "2026-06-01T00:00:00Z"
+  },
+  {
     "id": "2026-05-29-codex-stable-identicons-search",
     "title": "Codex mejora la trazabilidad con identicons estables y búsqueda de chats",
     "summary": "OpenAI añade identidades visuales estables para agentes de Codex en segundo plano y búsqueda en conversaciones anteriores, dos mejoras pequeñas pero clave para trabajar con muchos threads, menciones y transcripciones sin perder el hilo.",
