@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-03-openai-codex-sites",
+    "title": "OpenAI lanza Sites en Codex para crear y compartir apps web",
+    "summary": "OpenAI presenta Sites, una preview para planes Business y Enterprise que permite pedir a Codex que genere, itere y despliegue sitios o apps web ligeras con URL compartible, acceso interno al workspace y soporte para datos y archivos.",
+    "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+    "source": "X",
+    "publishedAt": "2026-06-02T16:22:36Z"
+  },
+  {
     "id": "2026-06-02-openai-codex-aws",
     "title": "OpenAI lleva Codex y modelos frontier a AWS",
     "summary": "OpenAI anuncia que sus modelos frontier, Codex y Managed Agents están disponibles en AWS, con integración en Amazon Bedrock y controles empresariales de seguridad y gobernanza para equipos que ya operan sobre la nube de Amazon.",
