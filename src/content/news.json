@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-06-08-no-mistakes-agentic-git-push",
+    "title": "no-mistakes mete agentes en el git push antes de abrir PR",
+    "summary": "no-mistakes actúa como un proxy local de Git: al hacer git push no-mistakes crea un worktree desechable, ejecuta una pipeline de validación con agentes como Claude, Codex, OpenCode o Pi, aplica fixes seguros y solo abre una PR limpia cuando pasan las comprobaciones.",
+    "url": "https://github.com/kunchenguid/no-mistakes",
+    "source": "X",
+    "publishedAt": "2026-06-08T06:10:05Z"
+  },
+  {
+    "id": "2026-06-07-magicpath-codex-plugin",
+    "title": "MagicPath se convierte en plugin oficial de Codex",
+    "summary": "MagicPath anuncia una integración oficial con Codex que le da al agente un canvas visual y multijugador donde puede diseñar, construir e iterar con contexto del proyecto, conectando prototipado de producto y código en el mismo flujo.",
+    "url": "https://www.magicpath.ai/documentation/features/external-agents",
+    "source": "X",
+    "publishedAt": "2026-06-05T17:00:40Z"
+  },
+  {
+    "id": "2026-06-06-google-agentic-rag",
+    "title": "Google Research lleva el RAG agentic a Gemini Enterprise Agent Platform",
+    "summary": "Google Research y Google Cloud presentan un framework de agentic RAG que descompone consultas complejas, busca en múltiples corpus y usa un sufficient context agent para iterar hasta reunir contexto bastante antes de responder, con mejoras de accuracy frente a RAG estándar.",
+    "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
+    "source": "X",
+    "publishedAt": "2026-06-05T19:36:52Z"
+  },
+  {
+    "id": "2026-06-06-google-gemma-4-qat",
+    "title": "Google publica Gemma 4 QAT para ejecutar modelos abiertos con menos memoria",
+    "summary": "Google Gemma publica checkpoints Quantization-Aware Training para todos los tamaños de Gemma 4 y sus drafters en Hugging Face, una optimización pensada para reducir requisitos de memoria y mejorar el rendimiento on-device de modelos abiertos.",
+    "url": "https://x.com/googlegemma/status/2062928831229665566",
+    "source": "X",
+    "publishedAt": "2026-06-05T16:05:35Z"
+  },
+  {
     "id": "2026-06-05-lm-studio-lm-link-iphone",
     "title": "LM Studio lleva sus modelos locales al iPhone con LM Link",
     "summary": "LM Studio lanza LM Link en iPhone y iPad a través de Locally, su app móvil, para usar desde el teléfono los modelos grandes que corren en tu máquina local con comunicación cifrada de extremo a extremo y chats guardados en tus dispositivos.",
