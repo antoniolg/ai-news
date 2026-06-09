@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-08-frontiercode-mergeability-benchmark",
+    "title": "Cognition lanza FrontierCode para medir si un PR de IA sería mergeable",
+    "summary": "Cognition presenta FrontierCode, un benchmark para coding agents que evalúa si un maintainer aceptaría el PR: corrección, calidad de tests, scope, estilo y convenciones del repo, con tareas creadas por maintainers de proyectos open source y revisión manual de Cognition.",
+    "url": "https://cognition.ai/blog/frontier-code",
+    "source": "X",
+    "publishedAt": "2026-06-08T00:00:00Z"
+  },
+  {
     "id": "2026-06-08-no-mistakes-agentic-git-push",
     "title": "no-mistakes mete agentes en el git push antes de abrir PR",
     "summary": "no-mistakes actúa como un proxy local de Git: al hacer git push no-mistakes crea un worktree desechable, ejecuta una pipeline de validación con agentes como Claude, Codex, OpenCode o Pi, aplica fixes seguros y solo abre una PR limpia cuando pasan las comprobaciones.",
