@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-10-claude-fable-5-mythos-public",
+    "title": "Anthropic abre Claude Fable 5 con potencia Mythos y límites de seguridad",
+    "summary": "Anthropic lanza Claude Fable 5 para usuarios de pago como una versión pública de su familia Mythos, con más capacidad para tareas complejas de software y salvaguardas que redirigen ciertas peticiones sensibles de ciberseguridad, biología, química o destilación a Claude Opus 4.8.",
+    "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+    "source": "X",
+    "publishedAt": "2026-06-09T17:39:52Z"
+  },
+  {
     "id": "2026-06-08-frontiercode-mergeability-benchmark",
     "title": "Cognition lanza FrontierCode para medir si un PR de IA sería mergeable",
     "summary": "Cognition presenta FrontierCode, un benchmark para coding agents que evalúa si un maintainer aceptaría el PR: corrección, calidad de tests, scope, estilo y convenciones del repo, con tareas creadas por maintainers de proyectos open source y revisión manual de Cognition.",
