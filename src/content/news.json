@@ -1,5 +1,29 @@
 [
   {
+    "id": "2026-06-11-mimo-code-open-source-agent",
+    "title": "Xiaomi lanza MiMo Code, un coding agent open source para terminal",
+    "summary": "Xiaomi MiMo publica MiMo Code V0.1, un agente de coding en TypeScript con licencia MIT, memoria persistente, checkpoints, subagentes, modo Compose, comandos como /goal, /dream y /distill, entrada por voz y compatibilidad para migrar desde configuraciones de Claude Code.",
+    "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "source": "X",
+    "publishedAt": "2026-06-10T20:00:28Z"
+  },
+  {
+    "id": "2026-06-11-anthropic-fable-5-visible-safeguards",
+    "title": "Anthropic rectifica y hará visibles los límites de Claude Fable 5",
+    "summary": "Anthropic cambia las salvaguardas de Claude Fable 5 tras la reacción de investigadores y desarrolladores: la compañía reconoce que hizo el tradeoff equivocado y que ahora avisará cuando redirija o limite tareas relacionadas con desarrollo de modelos frontier.",
+    "url": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+    "source": "X",
+    "publishedAt": "2026-06-11T03:18:12Z"
+  },
+  {
+    "id": "2026-06-11-google-diffusiongemma-text-generation",
+    "title": "Google DeepMind lanza DiffusionGemma para generación de texto en paralelo",
+    "summary": "Google presenta DiffusionGemma, un modelo experimental abierto bajo Apache 2.0 que genera bloques de texto en paralelo en vez de token a token, con hasta 4x más velocidad en GPUs y foco en flujos locales interactivos como edición inline, iteración rápida y code infilling.",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+    "source": "X",
+    "publishedAt": "2026-06-10T16:06:30Z"
+  },
+  {
     "id": "2026-06-10-claude-fable-5-mythos-public",
     "title": "Anthropic abre Claude Fable 5 con potencia Mythos y límites de seguridad",
     "summary": "Anthropic lanza Claude Fable 5 para usuarios de pago como una versión pública de su familia Mythos, con más capacidad para tareas complejas de software y salvaguardas que redirigen ciertas peticiones sensibles de ciberseguridad, biología, química o destilación a Claude Opus 4.8.",
