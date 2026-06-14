@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-06-13-anthropic-fable-5-mythos-export-control",
+    "title": "Anthropic suspende Fable 5 y Mythos 5 por una orden de export control de EE. UU.",
+    "summary": "Anthropic afirma que una directiva del gobierno de EE. UU. le obliga a suspender el acceso a Fable 5 y Mythos 5 para cualquier nacional extranjero, incluso dentro de EE. UU. e incluyendo empleados extranjeros de Anthropic, por lo que deshabilita ambos modelos para todos los clientes mientras intenta resolver la situación.",
+    "url": "https://x.com/AnthropicAI/status/2065597531644743999",
+    "source": "X",
+    "publishedAt": "2026-06-13T00:50:03Z"
+  },
+  {
+    "id": "2026-06-13-zai-glm-5-2-coding-plan",
+    "title": "Z.ai empieza a desplegar GLM-5.2 con 1M de contexto para coding",
+    "summary": "Z.ai aparece en trending por el despliegue de GLM-5.2 para suscriptores del Coding Plan, con una ventana de contexto de 1M tokens y foco en flujos de programación largos, una señal más de la carrera por modelos de coding con contexto masivo.",
+    "url": "https://x.com/search?q=Z.ai%20GLM-5.2%20Coding%20Plan%201M%20context",
+    "source": "X",
+    "publishedAt": "2026-06-13T07:00:00Z"
+  },
+  {
     "id": "2026-06-11-mimo-code-open-source-agent",
     "title": "Xiaomi lanza MiMo Code, un coding agent open source para terminal",
     "summary": "Xiaomi MiMo publica MiMo Code V0.1, un agente de coding en TypeScript con licencia MIT, memoria persistente, checkpoints, subagentes, modo Compose, comandos como /goal, /dream y /distill, entrada por voz y compatibilidad para migrar desde configuraciones de Claude Code.",
