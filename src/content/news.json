@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-15-satya-nadella-ai-ecosystem-warning",
+    "title": "Satya Nadella advierte del riesgo de que pocos modelos capturen el conocimiento empresarial",
+    "summary": "Satya Nadella publica una reflexión sobre la IA en la empresa y defiende que un frontier model sin ecosistema estable puede concentrar demasiado valor: las compañías deben conservar su propio aprendizaje, contexto y sistemas de conocimiento en vez de cederlo todo a unos pocos modelos.",
+    "url": "https://www.businessinsider.com/microsoft-ceo-warns-ai-winners-hurt-whole-industries-satya-nadella-2026-6",
+    "source": "X",
+    "publishedAt": "2026-06-15T04:09:15Z"
+  },
+  {
     "id": "2026-06-13-anthropic-fable-5-mythos-export-control",
     "title": "Anthropic suspende Fable 5 y Mythos 5 por una orden de export control de EE. UU.",
     "summary": "Anthropic afirma que una directiva del gobierno de EE. UU. le obliga a suspender el acceso a Fable 5 y Mythos 5 para cualquier nacional extranjero, incluso dentro de EE. UU. e incluyendo empleados extranjeros de Anthropic, por lo que deshabilita ambos modelos para todos los clientes mientras intenta resolver la situación.",
