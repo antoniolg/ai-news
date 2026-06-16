@@ -8,7 +8,7 @@ test("renders the scaffold homepage", async ({ page }) => {
   await expect(
     page.getByText("Codex mejora la trazabilidad con identicons estables y búsqueda de chats"),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(78);
+  await expect(page.getByRole("link", { name: /Leer fuente/ })).toHaveCount(79);
 });
 
 test("filters timeline news from the search input", async ({ page }) => {
