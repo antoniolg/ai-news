@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-16-spacex-acquires-cursor-anysphere",
+    "title": "SpaceX acuerda comprar Anysphere, la compañía detrás de Cursor, por 60.000 millones",
+    "summary": "SpaceX acuerda adquirir Anysphere, creadora del AI coding assistant Cursor, en una operación en acciones valorada en 60.000 millones de dólares que se espera cerrar en el tercer trimestre de 2026. La compra convertiría a Cursor en una pieza estratégica del stack de IA de SpaceX/xAI tras su salida a bolsa.",
+    "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+    "source": "X",
+    "publishedAt": "2026-06-16T11:21:00Z"
+  },
+  {
     "id": "2026-06-15-kimi-k2-7-code-local-unsloth",
     "title": "Unsloth permite ejecutar Kimi K2.7 Code localmente con cuantización dinámica",
     "summary": "Unsloth publica una versión GGUF de Kimi K2.7 Code reducida de 1T a 325GB mediante Dynamic 2-bit, manteniendo capas importantes en mayor precisión. La versión cuantizada puede superar 40 tokens por segundo en setups con 330GB de RAM o VRAM, mientras que el modelo completo en precisión completa exige unos 610GB.",
