@@ -7,6 +7,8 @@ const timelineGroups = loadTimelineGroups();
 const hasNews = timelineGroups.some((group) => group.items.length > 0);
 const timelineItems = timelineGroups.flatMap((group) => group.items);
 const updatedAtLabel = formatUpdatedAt(getLatestPublishedDate(timelineItems));
+const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const umamiScriptUrl = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL ?? "https://umami.antonioleiva.com/script.js";
 ---
 
 <!doctype html>
@@ -16,6 +18,11 @@ const updatedAtLabel = formatUpdatedAt(getLatestPublishedDate(timelineItems));
     <meta name="description" content="Línea del tiempo de noticias de desarrollo con IA" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cambio de Estado</title>
+    {
+      umamiWebsiteId ? (
+        <script is:inline defer src={umamiScriptUrl} data-website-id={umamiWebsiteId}></script>
+      ) : null
+    }
   </head>
   <body class="bg-[#080a0c] text-neutral-100 antialiased">
     <main class="relative min-h-dvh overflow-hidden">

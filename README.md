@@ -80,6 +80,23 @@ pnpm test:e2e
 pnpm build
 ```
 
+## Analytics
+
+Umami is loaded only when `PUBLIC_UMAMI_WEBSITE_ID` is set.
+
+Create a local `.env` from `.env.example` and set the website ID:
+
+```bash
+PUBLIC_UMAMI_WEBSITE_ID=your-umami-website-id
+PUBLIC_UMAMI_SCRIPT_URL=https://umami.antonioleiva.com/script.js
+```
+
+In Umami, open the website settings and copy the ID from the tracking code snippet:
+
+```html
+<script defer src="https://umami.antonioleiva.com/script.js" data-website-id="..."></script>
+```
+
 The same gate runs in GitHub Actions on pushes to `main` and on pull requests.
 
 ## Project Structure
