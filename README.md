@@ -82,12 +82,12 @@ pnpm build
 
 ## Analytics
 
-Umami is loaded only when `PUBLIC_UMAMI_WEBSITE_ID` is set.
+Umami is loaded with the website ID for `ai.devexpert.io`.
 
-Create a local `.env` from `.env.example` and set the website ID:
+To override the tracking config locally, create a `.env` from `.env.example`:
 
 ```bash
-PUBLIC_UMAMI_WEBSITE_ID=your-umami-website-id
+PUBLIC_UMAMI_WEBSITE_ID=648686ab-beb5-4f4b-9d24-50708b8daab0
 PUBLIC_UMAMI_SCRIPT_URL=https://umami.antonioleiva.com/script.js
 ```
 

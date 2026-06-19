@@ -7,7 +7,7 @@ const timelineGroups = loadTimelineGroups();
 const hasNews = timelineGroups.some((group) => group.items.length > 0);
 const timelineItems = timelineGroups.flatMap((group) => group.items);
 const updatedAtLabel = formatUpdatedAt(getLatestPublishedDate(timelineItems));
-const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID ?? "648686ab-beb5-4f4b-9d24-50708b8daab0";
 const umamiScriptUrl = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL ?? "https://umami.antonioleiva.com/script.js";
 ---
 
