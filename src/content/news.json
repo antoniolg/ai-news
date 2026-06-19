@@ -1,5 +1,13 @@
 [
   {
+    "id": "2026-06-19-claude-code-artifacts",
+    "title": "Claude Code genera artifacts interactivos y compartibles desde una sesión",
+    "summary": "Anthropic lanza artifacts en Claude Code: páginas web vivas y compartibles generadas desde el contexto completo de una sesión, pensadas para PR walkthroughs, incidentes, dashboards, checklists o mapas de arquitectura. Los artifacts se actualizan en el mismo enlace, tienen historial de versiones y están disponibles en beta para planes Team y Enterprise desde CLI y desktop.",
+    "url": "https://claude.com/blog/artifacts-in-claude-code",
+    "source": "X",
+    "publishedAt": "2026-06-19T00:00:00Z"
+  },
+  {
     "id": "2026-06-16-spacex-acquires-cursor-anysphere",
     "title": "SpaceX acuerda comprar Anysphere, la compañía detrás de Cursor, por 60.000 millones",
     "summary": "SpaceX acuerda adquirir Anysphere, creadora del AI coding assistant Cursor, en una operación en acciones valorada en 60.000 millones de dólares que se espera cerrar en el tercer trimestre de 2026. La compra convertiría a Cursor en una pieza estratégica del stack de IA de SpaceX/xAI tras su salida a bolsa.",
