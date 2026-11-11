@@ -6,9 +6,9 @@ export const newsItemSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
   summary: z.string().min(1),
-  url: z.string().url(),
+  url: z.url(),
   source: newsSourceSchema,
-  publishedAt: z.string().datetime({ offset: true }),
+  publishedAt: z.iso.datetime({ offset: true }),
 });
 
 export const newsItemsSchema = z.array(newsItemSchema);
